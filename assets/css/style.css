@@ -1,0 +1,117 @@
+body{
+    background: #141519;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal{
+    background: #1b222c;
+    padding: 35px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#star{
+    background: #262f38;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+#star svg{
+    margin: -2px 1px;
+    display: inline-block;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.botones{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px; 
+ padding-bottom: 30px;  
+}
+
+.botones .num{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #262f38;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.botones .num:hover{
+    background: #fc7613;
+}
+
+.botones .num:active{
+ background: white;
+}
+
+#submit{
+    background: #fc7613;
+    color: white;
+    font-size: 15px;
+    padding: 10px 123px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+#submit:hover{
+    background: white;
+    color: #fc7613;
+}
+
+#gracias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gracias span{
+    background-color: #262f38;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 2px;
+}
+
+#gracias .selected{
+    color: #fc7613;
+    font-family: 'Overpass', sans-serif;
+    margin: 4px 15px;
+    
+}
+
+#gracias .text{
+    text-align: center;
+}
